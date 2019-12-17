@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+  }
+
+  main {
+
+    text-align: center;
+    display: grid; /*para desplegar contenido como grilla*/
+    align-items: center; /* propiedad baja en contenido del menu al centro*/
+    justify-items: center; /*Justifica centrandolo en el medio de la pagina*/
+    border: 3px solid #C3F1FF;
+    border-radius: 30px;/* redondea los bordes*/
+    margin: auto;  /*centra el main*/
+    width: 300px; /* le da el ancho*/
+    height: 300px; /* le da el ancho*/
+    background: #F2FCFF; /* le da el color de fondo*/
+
+  }
